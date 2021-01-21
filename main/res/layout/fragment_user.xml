@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    android:orientation="vertical"
+    android:outlineProvider="none"
+    tools:context=".ui.user.UserFragment">
+
+    <TextView
+        android:id="@+id/username_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#590A0A"
+        android:text="User"
+        android:textAlignment="center"
+        android:textColor="#DCD6D6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/favorite_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#590A0A"
+        android:text="Favorites"
+        android:textAlignment="center"
+        android:textColor="#DCD6D6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/favorite_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E6E6E" />
+
+</LinearLayout>
